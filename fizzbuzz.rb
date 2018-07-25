@@ -10,4 +10,4 @@ def fizz(num)
   end
 end
 
-fizzbuzz(15)
+fizz(15)
