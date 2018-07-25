@@ -1,12 +1,12 @@
-def fizzbuzz(num = 15)
+def fizzbuzz(num)
   if num % 3 == 0 && num % 5 != 0
-    print "Fizz"
+    "Fizz"
   elsif num % 5 == 0 && num % 3 != 0
-    print "Buzz"
+    "Buzz"
   elsif num % 3 == 0 && num % 5 == 0
-    print "FizzBuzz"
+    "FizzBuzz"
   else
-    print "nil"
+    "nil"
   end
 end
 
